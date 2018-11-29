@@ -1,1 +1,23 @@
 
+{
+  "nodes": {
+    "kmaster.example.com": {
+      ":ip": "192.168.34.5",
+      "ports": [],
+      ":memory": 2048,
+      ":bootstrap": "bootstrap.sh"
+    },
+    "wn01.example.com": {
+      ":ip": "192.168.34.10",
+      "ports": [],
+      ":memory": 1024,
+      ":bootstrap": "bootstrap.sh"
+    },
+    "wn02.example.com": {
+      ":ip": "192.168.34.20",
+      "ports": [],
+      ":memory": 1024,
+      ":bootstrap": "bootstrap.sh"
+    }
+  }
+}
